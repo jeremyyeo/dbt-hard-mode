@@ -1,0 +1,12 @@
+version: 2
+models:
+  - name: foo
+    columns:
+      - name: id
+        tests:
+          - not_null
+  - name: bar
+    columns:
+      - name: id
+        tests:
+          - not_null

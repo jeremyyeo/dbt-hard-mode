@@ -1,0 +1,8 @@
+name: my_dbt_project
+profile: postgres
+config-version: 2
+version: "1.0.0"
+
+models:
+  my_dbt_project:
+    +materialized: table
